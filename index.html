@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="/website/css/uicons-" rel="stylesheet">
     <title>Document</title>
 </head>
 
-<body>
+<body class="mybody">
 
     <!-------------------------------------My navbar--------------------------------------->
     <!-------------------------------------------------------------------------------------->
@@ -26,10 +27,10 @@
                     </li>
                     <li>
                         <a href="#"> <select name="counter" id="counter">
-                            <option value="Counter">Counter</option>
-                            <option value="Counter">resevation</option>
-                            <option value="Counter">Buy ticket</option>
-                        </select></a>
+                                <option value="Counter">Counter</option>
+                                <option value="Counter">resevation</option>
+                                <option value="Counter">Buy ticket</option>
+                            </select></a>
                     </li>
                     <li>
                         <a href="#">Services</a>
@@ -49,8 +50,8 @@
 
         <div class="user-login">
             <div class="login">
-                <a href="#" class="signup">sign up</a>
-                <a href="#" class="signin">Sign in</a>
+                <a href="#" class="signin">sign in</a>
+                <a href="#" class="signup">Sign up</a>
 
             </div>
             <div class="profile">
@@ -59,9 +60,11 @@
         </div>
 
         <div class="burger">
-            <div class="burger-bar1"></div>
-            <div class="burger-bar2"></div>
-            <div class="burger-bar3"></div>
+            <div class="burger-bar">
+                <div class="burger-bar1"></div>
+                <div class="burger-bar2"></div>
+                <div class="burger-bar3"></div>
+            </div>
         </div>
     </div>
 
@@ -78,9 +81,9 @@
                 <div class="user-login2">
                     <div class="log"></div>
                     <div class="login2">
-                        <a href="#" class="signup">sign up</a>
-                        <a href="#" class="signin">Sign in</a>
-        
+                        <a href="#" class="signin">sign in</a>
+                        <a href="#" class="signup">Sign up</a>
+
                     </div>
                 </div>
 
@@ -98,7 +101,7 @@
 
             <!----------------------------------My Section1 right-side-------------------------------->
             <div class="section1-right">
-                <img src="images/section1.PNG" alt="" class="section1-right-img">
+                <img src="images/section1.PNG" alt="" class="section1-right-img" id="myIma">
                 <img src="images/car.png" alt="" class="section1-right-img2">
             </div>
         </div>
@@ -224,7 +227,7 @@
                         <div class="go">Go</div>
                     </div>
                 </div>
-                
+
 
 
                 <div class="destination-card">
@@ -418,6 +421,43 @@
             </div>
         </div>
     </footer>
+
+
+
+    <!-------------------------------------My LOGIN section----------------------------------->
+    <!-------------------------------------------------------------------------------------->
+
+    <div class="log">
+        <div class="log-container">
+            <img src="images/croix.png" alt="" class="log-cross">
+            <form class="formuler">
+                <div class="login-title">Sign in</div>
+                <img src="images/user.svg" alt="" class="user-logo">
+                <input type="text" placeholder="Enter your name here">
+                <input type="email" placeholder="Enter your email here">
+                <input type="password" placeholder="Enter your password">
+                <input type="password" placeholder="password verifaction">
+                <input type="submit" value="Sign in" class="submit">
+
+                <p class="login-text">Already have an account?</p>
+                <div class="login-text2">This information is confidential, make sure to keep <br> it safe and availble
+                    only to you</div>
+            </form>
+
+
+            <form class="formuler2">
+                <div class="login-title">Sign up</div>
+                <i class="fi fi-sr-phone-call"></i>
+                <input type="text" placeholder="Enter your name here">
+                <input type="email" placeholder="Enter your email here">
+                <input type="password" placeholder="Enter your password">
+                <input type="submit" value="Sign up" class="submit">
+
+                <div class="login-text3">I don't have an account</div>
+            </form>
+
+        </div>
+    </div>
 
 </body>
 <script src="script/bootstrap.js"></script>
