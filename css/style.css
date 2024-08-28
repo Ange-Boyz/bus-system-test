@@ -204,7 +204,7 @@
     display: flex;
     background-image: url(../images/background1.png);
     border-bottom-left-radius: 40%;
-    background-color: #00ffff;
+   background-color: white;
 }
 
 .section1-1 {
@@ -305,7 +305,7 @@
 }
 
 .offers-1 {
-    background-color: aqua;
+    background-color: white;
 }
 
 .offers h1 {
@@ -708,6 +708,10 @@ footer .foot-title {
     cursor: pointer;
 }
 
+.log .formuler .submit:hover{
+    box-shadow: 0 0 15px #032485;
+}
+
 .log .formuler .login-text2{
     font-weight: lighter;
 }
@@ -774,6 +778,10 @@ footer .foot-title {
     border-bottom: none;
 }
 
+.log .formuler2 .submit:hover{
+    box-shadow: 0 0 15px #032485;
+}
+
 
 .log .formuler2 .login-text3{
     color: purple;
@@ -808,6 +816,105 @@ body{
 .active-signin{
     overflow: hidden;
 }
+
+
+
+
+/**************************************location****************************/
+/****************************************************************************/
+.location-1{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    top: 0;
+    background-color: rgba(000, 000, 000, 0.25);
+    display: none;
+    transition: 0.10s ease;
+}
+
+.location{
+    top: 0;
+    width: 500px;
+    height: 445px;
+    background-color: rgba(000, 000, 000, 0.50);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    align-content: center;
+}
+
+.location form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.location form input{
+    font-size: 15px;
+    padding-left: 15px;
+    margin-bottom: 45px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    width: 350px;
+    height: 40px;
+    color: white;
+}
+
+.location form input:focus{
+    outline: none;
+}
+
+
+.location form input::placeholder{
+    color: white;
+    font-weight: lighter;
+}
+
+.location form label{
+    align-items: center;
+}
+
+
+.location img{
+    width: 200px;
+}
+
+.location .l-cross{
+    width: 30px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.location .l-submit{
+    background-color: #032485;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border-bottom: none;
+}
+
+.location .l-submit:hover{
+    box-shadow: 0 0 15px #032485;
+}
+
+.location-active .location-1{
+    display: block;
+    transition: 0.10s ease;
+}
+
+.location-active{
+    overflow: hidden;
+}
+
 
 
 
