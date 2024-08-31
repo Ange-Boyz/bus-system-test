@@ -11,6 +11,7 @@ body{
     height: 100vh;
     padding: 0 17%;
     align-content: center;
+    background-color: #eeeedd;
 }
 
 .nav{
