@@ -11,7 +11,7 @@ body{
     height: 100vh;
     padding: 0 17%;
     align-content: center;
-    background-color: #eeeedd;
+    background-image: url(../images/Simple\ Shiny.svg);
 }
 
 .nav{
@@ -39,6 +39,7 @@ body{
     border: 1px solid #032485;
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 
