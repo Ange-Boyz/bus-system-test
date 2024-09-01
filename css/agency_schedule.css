@@ -59,6 +59,8 @@
     background-color:  #032485;
     border-radius: 8px;
     color: white;
+    align-content: center;
+    display: flex;
 }
 
 .price{
@@ -87,4 +89,30 @@
 
 b{
     font-size: 18px;
+}
+
+.bus-info{
+    display: flex;
+    align-content: center;
+}
+
+.foot{
+    align-content: center;
+    color: gray;
+    margin-right: 25px;
+    display: none;
+    transition: 0.3s ease;
+}
+
+.active .foot{
+    display: block;
+}
+
+.active .type1{
+    border-bottom: none;
+}
+
+.active .type{
+    padding: 7px 15px;
+    border-bottom: 3px solid #032485;
 }
